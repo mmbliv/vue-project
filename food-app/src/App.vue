@@ -1,17 +1,19 @@
 <template>
   <div>
     <headerApp></headerApp>
-    <food></food>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import Foods from "./component/Foods.vue";
 import Header from "./component/Header.vue";
+import Drink from "./component/Drink.vue";
 export default {
   components: {
     headerApp: Header,
-    food: Foods
+    food: Foods,
+    drink: Drink
   },
 
   data() {
