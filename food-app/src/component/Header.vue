@@ -1,7 +1,12 @@
 <template lang="">
   <header>
-    <button>HOME</button>
-    <button>ABOUT</button>
+    <router-link v-bind:to="'/'">
+      <button>HOME</button>
+    </router-link>
+
+    <router-link v-bind:to="'/about'">
+      <button>ABOUT</button>
+    </router-link>
   </header>
 </template>
 <script>

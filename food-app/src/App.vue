@@ -6,14 +6,14 @@
 </template>
 
 <script>
-import Foods from "./component/Foods.vue";
+import About from "./component/About.vue";
 import Header from "./component/Header.vue";
-import Drink from "./component/Drink.vue";
+import Drinks from "./component/Drinks.vue";
 export default {
   components: {
     headerApp: Header,
-    food: Foods,
-    drink: Drink
+    drink: Drinks,
+    about: About
   },
 
   data() {

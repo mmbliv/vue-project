@@ -1,7 +1,7 @@
-import food from "./component/Foods.vue";
-import drink from "./component/Drink.vue";
+import about from "./component/about.vue";
+import drinks from "./component/Drinks.vue";
 
 export default [
-  { path: "/", component: food },
-  { path: "/:id", component: drink }
+  { path: "/", component: drinks },
+  { path: "/about", component: about }
 ];
